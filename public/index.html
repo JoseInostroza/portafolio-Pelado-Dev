@@ -5,14 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@200;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <title>Pelado DEV</title>
 </head>
 <body>
-    <header>
-        
-    </header>
-    <main>
-        <div class="w-24 h-24 bg-red-200"></div>
-    </main>
+    <nav >
+    </nav>
+    <div id="tab_bar"></div>
+    <section class="w-full h-screen">
+        <div id="home" >
+            <div class="w-full h-3/4 relative">
+                <div class="w-full h-1/2 flex flex-col absolute space-y-96 p-4 items-center">
+                    <input class="outline-none p-3 rounded-full shadow-md font-Noto" type="search" name="searchbar" id="" placeholder="San Francisco">
+                    <button class="bg-secundario p-4 rounded-full font-Noto font-semibold text-text">Explora</button>
+                </div>
+                <div class="w-full h-full">
+                    <img src="../public/img/sanFrancisco.jpg" alt="Imagen fondo san francisco">
+                </div>
+                
+            </div>
+        </div>
+        <div id="recomendaciones" class="p-20">
+            <div class="card">
+                <div class="card-img bg-norway"></div>
+                <div class="card-text bg-principal  text-text">
+                    <p class="font-bold text-lg"">Noruega</p>
+                    <p class="" >paisajes increibles</p>
+                </div>
+            </div>
+        </div>
+        <div id="trabajemos"></div>
+    </section>
+   
+    <footer>
+
+    </footer>
 </body>
 </html>
