@@ -630,6 +630,11 @@ video {
   background-color: rgb(27 38 44 / var(--tw-bg-opacity));
 }
 
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .bg-norway {
   background-image: url(../img/norway.jpg);
 }
@@ -723,6 +728,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -744,6 +754,11 @@ video {
 .text-terciario {
   --tw-text-opacity: 1;
   color: rgb(50 130 184 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .shadow-md {
